@@ -1,0 +1,23 @@
+{
+  "name": "milestone_checker_action",
+  "version": "1.0.0",
+  "description": "Github action to check the milestone of a PR to avoid merging future work",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rullzer/milestone_checker_action.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rullzer/milestone_checker_action/issues"
+  },
+  "homepage": "https://github.com/rullzer/milestone_checker_action#readme",
+  "dependencies": {
+    "@actions/core": "^1.2.5"
+  }
+}

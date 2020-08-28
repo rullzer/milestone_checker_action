@@ -1,0 +1,11 @@
+name: 'Milestone checker'
+description: 'Check if the provided milestone is eligable for merging'
+inputs:
+  milestone:  
+    description: 'What milestone can be merged'
+    required: true
+    default: 'NONE'
+runs:
+  using: 'node12'
+  main: 'index.js'
+
