@@ -6,7 +6,7 @@ jobs:
     name: Check the milestone for mergeability
     steps:
       - name: Check the milestone
-        uses: rullzer/milestone_checker_action@v0.0.1
+        uses: rullzer/milestone_checker_action@v0.0.2
         with:
           milestone: 'v1'
 
