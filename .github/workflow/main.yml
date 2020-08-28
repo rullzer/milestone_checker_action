@@ -1,0 +1,12 @@
+on: [pull_request]
+
+jobs:
+  mileston_check:
+    runs-on: ubuntu-latest
+    name: Check the milestone for mergeability
+    steps:
+      - name: Check the milestone
+        uses: rullzer/milestone_checker_action@v0.0.1
+        with:
+          milestone: 'v1'
+
